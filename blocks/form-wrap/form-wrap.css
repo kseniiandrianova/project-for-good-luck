@@ -1,0 +1,8 @@
+.form-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 728px;
+}
