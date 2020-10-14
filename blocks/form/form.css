@@ -1,0 +1,8 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    /* box-sizing: border-box; */
+    /* padding: 153px 349px 209px 68px; */
+    background-color: #F2F2F2;
+}
