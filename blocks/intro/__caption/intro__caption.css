@@ -1,0 +1,14 @@
+.intro__caption {
+    max-width: 590px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    justify-content: start;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    margin-top: 130px;
+    margin-left: 40px;
+}

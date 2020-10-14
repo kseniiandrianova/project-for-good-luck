@@ -1,0 +1,14 @@
+.header__link {
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    transition: all 0.5s ease;
+    color: black;
+}
+.header__link:hover {
+    opacity: 0.5;
+}
