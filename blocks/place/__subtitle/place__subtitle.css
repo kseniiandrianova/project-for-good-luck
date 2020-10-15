@@ -4,3 +4,20 @@
     font-weight: normal;
     margin-bottom: 35px;
 }
+@media screen and (max-width: 1279px) {
+    .place__subtitle {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .place__subtitle {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .place__subtitle {
+        font-size: 12px;
+        
+    }
+}
