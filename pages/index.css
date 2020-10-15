@@ -24,6 +24,7 @@
 @import url("../blocks/people/__caption/people__caption.css");
 @import url("../blocks/form-wrap/form-wrap.css");
 @import url("../blocks/form/form.css");
+@import url("../blocks/input/input.css");
 @import url("../blocks/form/__where/form__where.css");
 @import url("../blocks/form/__title/form__title.css");
 @import url("../blocks/form/__then/form__then.css");
