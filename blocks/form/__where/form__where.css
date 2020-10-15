@@ -1,6 +1,7 @@
 .form__where {
     max-width: 436px;
-    height: 55px;
+    height: 40px;
     border: none;
+    margin-top: 100px;
     /* margin-left: 40px; */
 }
