@@ -1,0 +1,9 @@
+.video__title {
+    position: absolute;
+    z-index: 1;
+    margin-top: 149px;
+    margin-left: 79px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}

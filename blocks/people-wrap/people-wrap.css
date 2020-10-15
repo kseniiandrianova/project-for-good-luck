@@ -1,7 +1,8 @@
 .people-wrap {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 20px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 60px;
     justify-self: center;
     margin-left: 40px;
 }

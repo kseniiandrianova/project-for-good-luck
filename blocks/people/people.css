@@ -1,8 +1,7 @@
-people {
+.people {
     max-width: 1300px;
     width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto 170px;
+    display: grid;
+    grid-template-columns: auto;
 }
