@@ -1,5 +1,5 @@
 .form__btn {
-    max-width: 211px;
+    max-width: 300px;
     height: 37px;
     margin-top: 25px;
     margin-bottom: 143px;
@@ -10,4 +10,5 @@
     font-size: 17px;
     font-weight: normal;
     cursor: pointer;
+    white-space: nowrap;
 }
