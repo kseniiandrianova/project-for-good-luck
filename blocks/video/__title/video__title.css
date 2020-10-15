@@ -7,3 +7,26 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1040px) {
+    .video__title {
+        margin-top: 80px;
+        margin-left: 69px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__title {
+        margin-top: 60px;
+        margin-left: 59px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__title {
+        margin-top: 40px;
+        margin-left: 49px;
+    }
+}

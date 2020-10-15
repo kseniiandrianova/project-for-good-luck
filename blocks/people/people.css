@@ -3,5 +3,17 @@
     width: 100%;
     margin: 0 auto 170px;
     display: grid;
-    grid-template-columns: auto;
+    /* grid-template-columns: auto; */
+}
+
+@media screen and (max-width: 1920px) {
+    .people {}
+}
+
+@media screen and (max-width: 768px) {
+    .people {}
+}
+
+@media screen and (max-width: 480px) {
+    .people {}
 }

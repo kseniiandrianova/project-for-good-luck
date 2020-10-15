@@ -1,8 +1,27 @@
 .people-wrap {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 60px;
     justify-self: center;
-    margin-left: 40px;
+}
+
+@media screen and (max-width: 1040px) {
+    .people-wrap {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .people-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .people-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }

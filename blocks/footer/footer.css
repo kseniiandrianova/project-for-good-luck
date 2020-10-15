@@ -12,3 +12,22 @@
     margin: 0 auto;
     max-width: 1460px;
 }
+
+@media screen and (max-width: 1040px) {
+    .footer {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 200px;
+    }
+}
+
+
+/* @media screen and (max-width: 480px) {
+    .footer {
+        height: 100px;
+    }
+} */

@@ -1,6 +1,10 @@
-       .page {
-           width: 100%;
-           margin: 0 auto;
-           font-family: 'Roboto', Arial, sans-serif;
-           color: black;
-       }
+* {
+    outline: 1px solid lightcoral;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: black;
+}

@@ -3,4 +3,23 @@
     font-weight: bold;
     font-size: 17px;
     text-transform: uppercase;
+    margin-top: 146px;
+}
+
+@media screen and (max-width: 1040px) {
+    .people__name {
+        margin-top: 116px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .people__name {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .people__name {
+        margin-top: 0;
+    }
 }
