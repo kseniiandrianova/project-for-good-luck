@@ -17,6 +17,7 @@
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__subtitle/place__subtitle.css");
 @import url("../blocks/people/people.css");
+@import url("../blocks/people-wrap/people-wrap.css");
 @import url("../blocks/people/__title/people__title.css");
 @import url("../blocks/people/__name/people__name.css");
 @import url("../blocks/people/__description/people__description.css");
