@@ -1,7 +1,10 @@
 .place__title {
     width: 100%;
-    margin-top: 80px;
-    margin-bottom: 220px;
+    margin-top: 20px;
+    margin-bottom: 250px;
     font-size: 40px;
     font-weight: bold;
+}
+.place__title:last-child{
+    margin-bottom: 150px;
 }

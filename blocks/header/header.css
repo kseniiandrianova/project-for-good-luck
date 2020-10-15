@@ -6,3 +6,20 @@
     justify-content: space-between;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,6 +1,4 @@
 .intro__caption {
-    max-width: 590px;
-    width: 100%;
     margin: 0 auto;
     margin-bottom: 25px;
     justify-content: start;
@@ -11,4 +9,25 @@
     color: blanchedalmond;
     margin-top: 130px;
     margin-left: 40px;
+}
+@media screen and (max-width: 1279px) {
+    .intro__caption {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .intro__caption {
+        font-size: 14px;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .intro__caption {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
 }

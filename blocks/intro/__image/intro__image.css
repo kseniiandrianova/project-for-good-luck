@@ -1,9 +1,26 @@
 .intro__image {
     max-width: 80%;
     width: 400px;
-    height: 420px;
     object-fit: cover;
     display: flex;
     margin: 0 auto;
     margin-right: 95px;
+}
+@media screen and (max-width: 1279px) {
+    .intro__image {
+        max-width: 350px;
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .intro__image {
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .intro__image {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
 }
