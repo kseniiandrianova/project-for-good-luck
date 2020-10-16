@@ -1,13 +1,14 @@
 .form__then {
-    height: 115px;
+    min-height: 115px;
     margin-top: 30px;
     border: none;
 }
 
 @media screen and (max-width: 1279px) {
     .form__then {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 20px;
+        margin-top: 5px;
     }
 }
 
@@ -15,11 +16,12 @@
     .form__then {
         font-size: 20px;
         margin-bottom: 0;
-        height: 50px;
+        min-height: 50px;
+        margin-top: 30px;
     }
 }
-
-
-/* @media screen and (max-width: 767px) {
-    .form__then {}
-} */
+@media screen and (max-width: 767px) {
+    .form__then {
+        font-size: 12px;
+    }
+}

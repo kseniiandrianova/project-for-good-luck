@@ -3,7 +3,6 @@
     width: 100%;
     margin: 0 auto 170px;
     display: grid;
-    /* grid-template-columns: auto; */
 }
 @media screen and (max-width: 1279px) {
     .people {

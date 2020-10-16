@@ -1,25 +1,24 @@
 .form__where {
-    font-size: 40px;
+    min-height: 40px;
     border: none;
     margin-top: 100px;
 }
 
 @media screen and (max-width: 1279px) {
     .form__where {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 30px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .form__where {
-        font-size: 20px;
-        margin-top: 13px;
+        margin-top: 0;
     }
 }
-
-
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .form__where {
+        font-size: 12px;
+        min-width: 200px;
     }
-} */
+}
