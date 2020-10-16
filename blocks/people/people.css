@@ -5,7 +5,16 @@
     display: grid;
     /* grid-template-columns: auto; */
 }
-
+@media screen and (max-width: 1279px) {
+    .people {
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .people {
+        max-width: 750px;
+    }
+}
 @media screen and (max-width: 768px) {
     .people {
         max-width: 300px;
