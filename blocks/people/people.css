@@ -6,16 +6,9 @@
     /* grid-template-columns: auto; */
 }
 
-@media screen and (max-width: 1920px) {
-    .people {
-        max-width: 1000px;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .people {}
-}
-
-@media screen and (max-width: 480px) {
-    .people {}
+    .people {
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
 }

@@ -6,3 +6,12 @@
     color: blanchedalmond;
     /* margin-left: 40px; */
 }
+
+@media screen and (max-width: 768px) {
+    .people__caption {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

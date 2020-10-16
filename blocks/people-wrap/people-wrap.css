@@ -7,21 +7,21 @@
 
 @media screen and (max-width: 1040px) {
     .people-wrap {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .people-wrap {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 20px;
+        max-width: 500px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .people-wrap {
-        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
 }

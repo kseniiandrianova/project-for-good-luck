@@ -1,7 +1,26 @@
 .form__where {
-    max-width: 436px;
     height: 40px;
     border: none;
     margin-top: 100px;
-    /* margin-left: 40px; */
 }
+
+@media screen and (max-width: 1279px) {
+    .form__where {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .form__where {
+        font-size: 20px;
+        margin-top: 13px;
+        height: 20px;
+    }
+}
+
+
+/* @media screen and (max-width: 767px) {
+    .form__where {
+    }
+} */
