@@ -6,14 +6,18 @@
     /* grid-template-columns: auto; */
 }
 
-@media screen and (max-width: 1920px) {
+
+/* @media screen and (max-width: 1920px) {
     .people {}
-}
+} */
 
 @media screen and (max-width: 768px) {
-    .people {}
+    .people {
+        max-width: 300px;
+    }
 }
 
-@media screen and (max-width: 480px) {
+
+/* @media screen and (max-width: 480px) {
     .people {}
-}
+} */

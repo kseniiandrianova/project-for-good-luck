@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 768px) {
     .people__title {
+        font-size: 30px;
         max-width: 500px;
         margin: auto;
     }
