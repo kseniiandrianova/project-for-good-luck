@@ -9,6 +9,7 @@
     .people-wrap {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
+        margin-left: 20px;
     }
 }
 

@@ -2,7 +2,12 @@
     font-size: 40px;
     font-weight: bold;
 }
-
+@media screen and (max-width: 1279px) {
+    .people__title {
+        max-width: 1000px;
+        margin-left: 20px;
+    }
+}
 @media screen and (max-width: 768px) {
     .people__title {
         font-size: 30px;
