@@ -7,7 +7,9 @@
 }
 
 @media screen and (max-width: 1920px) {
-    .people {}
+    .people {
+        max-width: 1000px;
+    }
 }
 
 @media screen and (max-width: 768px) {
