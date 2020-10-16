@@ -5,3 +5,24 @@
     margin-left: 79px;
     max-width: 436px;
 }
+
+@media screen and (max-width: 1279px) {
+    .input {
+        margin: auto;
+        align-self: center;
+    }
+}
+
+
+/* 
+
+@media screen and (max-width: 1023px) {
+    .input {
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .input {
+        max-width: 300px;
+    }
+} */
